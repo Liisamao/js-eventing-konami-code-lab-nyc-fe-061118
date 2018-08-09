@@ -5,7 +5,6 @@ document.body.addEventListener("keydown", playKonami);
 let index = 0;
 
 function playKonami(event) {
-  debugger;
   let key = event.which;
   if (key === code[index]){
     index++
